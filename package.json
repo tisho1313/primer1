@@ -1,0 +1,13 @@
+{
+  "name": "primer1",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "First Last <first.last@example.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node  --inspect=0.0.0.0 server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
