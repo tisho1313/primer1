@@ -12,5 +12,6 @@ app.get('/', (req, res) => {
   res.send('Pesho Mesho');
 });
 
+//Listem on port 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
