@@ -11,7 +11,7 @@ COPY package.json .
 RUN npm install
 
 # Add metadata to the image to describe which port the container is listening on at runtime.
-EXPOSE 3000
+EXPOSE 3030
 EXPOSE 9229
 # Run the specified command within the container.
 CMD [ "npm", "start" ]
